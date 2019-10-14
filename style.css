@@ -1,0 +1,95 @@
+.navbar-light .navbar-brand {
+    background-color: darkblue;
+    color: white;
+    font-family: 'Turret Road', cursive;
+    font-weight: bolder;
+    padding:20px;
+    margin-left:445px;
+}
+.nav-item {
+    margin-left:20px;
+    font-weight: bold;
+}
+body {
+    background-image: url("tiny-squares.png");
+}
+.container {
+    background-color: white;
+    padding:20px;
+    margin-top:50px;
+}
+.navbar {
+    border-bottom: solid grey;
+}
+.nav-link:after {
+    content: "|";
+    position: absolute;
+    top: 30px;
+    margin-left: 20px;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    border-top: solid grey;
+    background-color:aquamarine;
+    margin-top: 290px;
+}
+.row1 {
+    font-size: 20px;
+    font-family: lobster;
+    padding: 15px;
+    color:darkblue;
+}
+.row2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 16px;
+}
+img {
+    float:left;
+    padding: 3px 30px 30px 0px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+  .header {
+    font-size: 20px;
+    font-family: lobster;
+    padding: 20px;
+    color:darkblue;
+    border-bottom: solid grey;
+  }
+  .legend {
+    position: absolute;
+    z-index: auto;
+    background-color: transparent;
+    text-align: center;
+    padding:20px;
+    top: 100px;
+    width: 170px;
+    float:left;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+ }
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
