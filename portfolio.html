@@ -1,59 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Lobster|Turret+Road|Varela+Round&display=swap" rel="stylesheet">
-    <title>About Me</title>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Antic+Didone&display=swap" rel="stylesheet">
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Firuza Abramyan</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-    <div class="container">
-        <div class ="header">Portfolio</div>
-         <div class="row row 1">
-             <div class="col-sm-6">
-                    <img src="photos/d7649ce7444f3cda031de0ff2653ab92.png" style="width:200px; height:200px;"><div class="legend legend1">This is a random photo #2</div>
-                </div>
-            <div class="col-sm-6">
-                    <img src="photos/0-4407_cd-tumblr-png-colour-broken-cute-pastel-computer.jpg" style="width:200px; height:200px;"><div class="legend legend1">This is a random photo #1</div>
-             </div>
-         </div>
-         <div class="row row 2">
-                <div class="col-sm-6">
-                        <img src="photos/1-2-reindeer-png-pic.png" style="width:200px; height:200px;"><div class="legend legend1">This is a random photo #3</div>
-                </div>
-               <div class="col-sm-6">
-                    <img src="photos/5a5a8c6314d8c4188e0b08ec.png" style="width:200px; height:200px;"><div class="legend legend1">This is a random photo #4</div>
-                </div>
-            </div>
-         <div class="row row 1">
-                <div class="col-sm-12">
-                        <img src="photos/42-427190_sailormoon-sailor-moon-diana-cat-moon-gato-luna.jpg" style="width:200px; height:200px;"><div class="legend legend1">This is a random photo #5</div>
-                 </div>
-       </div>   
-</div>
-<footer class="footer">
-    <div class="container container2">
-      <span class="text-muted">Copyright©</span>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" id="name">Firuza Abramyan</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" id="about" href="index.html">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="port" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact" href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
-  </footer>   
+  </nav>
+  <div class="container" id="portwrap">
+    <div class="header">Portfolio</div>
+    <div class="row row 1">
+
+      <div class="card" id="first" style="width: 18rem;">
+        <img src="photos/eventapp.png" class="card-img-top" alt="weather_event_app">
+        <div class="card-body">
+          <h5 class="card-title">Event Advisor</h5>
+          <p class="card-text">Team project that is designed to provide information regarding events and the weather in
+            any given location.</p>
+        </div>
+        <div class="card-body">
+          <a href="https://kliche1791.github.io/weather_event_app/" target="_blank" class="card-link">Website</a>
+          <a href="https://github.com/kliche1791/weather_event_app" target="_blank" class="card-link">GitHub Link</a>
+        </div>
+      </div>
+
+      <div class="card" id="second" style="width: 18rem;">
+        <img src="photos/trainschedule.png" class="card-img-top" alt="Train Schedule">
+        <div class="card-body">
+          <h5 class="card-title">Train Schedule</h5>
+          <p class="card-text">A simple web app that uses Firebase to store variable. It calculats Next Arrival and
+            Minutes Away based on user input.</p>
+        </div>
+        <div class="card-body">
+          <a href="https://firuzaa8.github.io/Train-Schedule/" target="_blank" class="card-link">Website</a>
+          <a href="https://github.com/firuzaa8/Train-Schedule" target="_blank" class="card-link">GitHub Link</a>
+        </div>
+      </div>
+
+      <div class="card" id="third" style="width: 18rem;">
+        <img src="photos/giftastic.png" class="card-img-top" alt="GifTastic">
+        <div class="card-body">
+          <h5 class="card-title">GifTastic</h5>
+          <p class="card-text">A web app that takes an user input and displays it as a button; once clicked, the button
+            displays gifs that are related to the keyword. API is used. </p>
+        </div>
+        <div class="card-body">
+          <a href="https://firuzaa8.github.io/GifTastic/?" target="_blank" class="card-link">Website</a>
+          <a href="https://github.com/firuzaa8/GifTastic" target="_blank" class="card-link">GitHub Link</a>
+        </div>
+      </div>
+    </div>
+    <div class="row row 2">
+      <div class="card" id="first" style="width: 18rem;">
+        <img src="photos/theofficetrivia.png" class="card-img-top" alt="The Office Trivia">
+        <div class="card-body">
+          <h5 class="card-title">The Office Trivia Game</h5>
+          <p class="card-text">A Trivia Game for those who are true fans of "The Office". You get some time to answer a
+            question, you get to see some fun gifs of the favourite characters.</p>
+        </div>
+        <div class="card-body">
+          <a href="https://firuzaa8.github.io/TriviaGame2/" target="_blank" class="card-link">Website</a>
+          <a href="https://github.com/firuzaa8/TriviaGame2" target="_blank" class="card-link">GitHub Link</a>
+        </div>
+      </div>
+
+      <div class="card" id="second" style="width: 18rem;">
+        <img src="photos/trivia.png" class="card-img-top" alt="Trivia Game">
+        <div class="card-body">
+          <h5 class="card-title">Trivia Game</h5>
+          <p class="card-text">A simple trivia for those, who would like to check their basic knowledge of famouse
+            events, people, etc. </p>
+        </div>
+        <div class="card-body">
+          <a href="https://firuzaa8.github.io/TriviaGame/" target="_blank" class="card-link">Website</a>
+          <a href="https://github.com/firuzaa8/TriviaGame" target="_blank" class="card-link">GitHub Link</a>
+        </div>
+      </div>
+
+      <div class="card" id="third" style="width: 18rem;">
+        <img src="photos/starwars.png" class="card-img-top" alt="Star Wars RPG Game">
+        <div class="card-body">
+          <h5 class="card-title">Star Wars Game</h5>
+          <p class="card-text">A simple RPG game for Star Wars fans. With simple number manipulations, you can lead your
+            hero to a victory!</p>
+        </div>
+        <div class="card-body">
+          <a href="https://firuzaa8.github.io/Star-Wars-RPG-Game/" target="_blank" class="card-link">Website</a>
+          <a href="https://github.com/firuzaa8/Star-Wars-RPG-Game" target="_blank" class="card-link">GitHub Link</a>
+        </div>
+      </div>
+    </div>
+    <div class="row row 3">
+      <div class="card" id="first" style="width: 18rem;">
+        <img src="photos/crystal.png" class="card-img-top" alt="Crystal Collector">
+        <div class="card-body">
+          <h5 class="card-title">Crystal Collector</h5>
+          <p class="card-text">A simple game where the user can train the memory and some basic math. </p>
+        </div>
+        <div class="card-body">
+          <a href="https://firuzaa8.github.io/unit-4-game/" target="_blank" class="card-link">Website</a>
+          <a href="https://github.com/firuzaa8/unit-4-game" target="_blank" class="card-link">GitHub Link</a>
+        </div>
+      </div>
+
+      <div class="card" id="second" style="width: 18rem;">
+        <img src="photos/guessfood.png" class="card-img-top" alt="Word Guess Game">
+        <div class="card-body">
+          <h5 class="card-title">Word Guess Game</h5>
+          <p class="card-text">Food inspired fun trivia game that will educate in some ethnic signature dishes.</p>
+        </div>
+        <div class="card-body">
+          <a href="https://firuzaa8.github.io/Word-Guess-Game/" target="_blank" class="card-link">Website</a>
+          <a href="https://github.com/firuzaa8/Word-Guess-Game" target="_blank" class="card-link">GitHub Link</a>
+        </div>
+      </div>
+    </div>
+    <div class="container container2" id="foot">
+      <footer class="footer">
+
+        <span class="text-muted">Copyright©</span>
+
+      </footer>
+    </div>
 </body>
+
 </html>
